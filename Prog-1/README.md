@@ -6,7 +6,7 @@
 ---
 `Background and basics of Convolutional Neural Networks`
 
-Program Score: [0.035004128587258446, 0.9924]
+Program Score: [0.030527586654856897, 0.9913]
 
 `Assignment Answers`
 
