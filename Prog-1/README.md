@@ -2,7 +2,7 @@
 ---
 ##### Name: ANKIT SINGH
 ##### Email: ankitsingh.cool95@gmail.com
-##### Github Email: https://github.com/infinityrun
+##### Github : https://github.com/infinityrun
 ---
 `Background and basics of Convolutional Neural Networks`
 
