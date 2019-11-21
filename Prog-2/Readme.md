@@ -84,10 +84,9 @@ Program Score: [0.01956415104058797, 0.9942]
 
 Strategy was very simple to use MMZ in the model and use dropout after maxpool  to get max effect possible.
 
-1> First run 2 kernel and with batch_normalization.
-2> Max pool the result and again batch_normalization.
-3> then do dropout of(0.05).
-4> repeat step 1,2.
-5> then do dropout of(0.20).
-6> run 2 kernel again to get the final result.
-
+1. First run 2 kernel and with batch_normalization.
+2. Max pool the result and again batch_normalization.
+3. then do dropout of(0.05).
+4. repeat step 1,2.
+5. then do dropout of(0.20).
+6. run 2 kernel again to get the final result.
