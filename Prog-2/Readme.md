@@ -1,4 +1,4 @@
-# ASSIGNMENT 1 | EIP 4.0 |
+# ASSIGNMENT 2 | EIP 4.0 |
 ---
 ##### Name: ANKIT SINGH
 ##### Email: ankitsingh.cool95@gmail.com
