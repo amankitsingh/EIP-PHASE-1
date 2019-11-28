@@ -1,7 +1,7 @@
-##Final Validation of base network
+# Final Validation of base network
 > Accuracy on test data is: 82.56
 
-##Model Definition
+# Model Definition
 
 model = Sequential()
 model.add(SeparableConv2D(32, 3, 3, activation='relu', input_shape=(32, 32, 3))) # (30, 3)
@@ -37,11 +37,10 @@ model.add(Dropout(0.15))
 
 model.add(SeparableConv2D(num_classes, 2, 2, activation='relu')) # (1, 23)
 
-|model.add(Flatten())
-|model.add(Activation('softmax')) #(1, 23)
+model.add(Flatten())
+model.add(Activation('softmax')) #(1, 23)
 
-
-##50 epochs
+# 50 epochs
 
 Epoch 1/50
 390/390 [==============================] - 43s 111ms/step - loss: 1.6186 - acc: 0.4225 - val_loss: 1.3735 - val_acc: 0.5201
