@@ -4,13 +4,6 @@
 
 ## Xception Model :
 
-WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
-Instructions for updating:
-Use tf.where in 2.0, which has the same broadcast rule as np.where
-WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:1033: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
-
-WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:1020: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
-
 Epoch 1/30
 360/360 [==============================] - 172s 477ms/step - loss: 7.8062 - age_output_loss: 1.4315 - bag_output_loss: 0.9192 - emotion_output_loss: 0.9138 - footwear_output_loss: 0.9974 - gender_output_loss: 0.6758 - image_quality_output_loss: 0.9404 - pose_output_loss: 0.9356 - weight_output_loss: 0.9925 - age_output_acc: 0.3979 - bag_output_acc: 0.5624 - emotion_output_acc: 0.7122 - footwear_output_acc: 0.5128 - gender_output_acc: 0.5773 - image_quality_output_acc: 0.5567 - pose_output_acc: 0.6155 - weight_output_acc: 0.6341 - val_loss: 8.9326 - val_age_output_loss: 1.5208 - val_bag_output_loss: 1.0718 - val_emotion_output_loss: 0.9493 - val_footwear_output_loss: 1.1715 - val_gender_output_loss: 1.1203 - val_image_quality_output_loss: 1.0735 - val_pose_output_loss: 0.9590 - val_weight_output_loss: 1.0664 - val_age_output_acc: 0.2857 - val_bag_output_acc: 0.5605 - val_emotion_output_acc: 0.6989 - val_footwear_output_acc: 0.4152 - val_gender_output_acc: 0.5675 - val_image_quality_output_acc: 0.5298 - val_pose_output_acc: 0.6245 - val_weight_output_acc: 0.6349
 
@@ -161,7 +154,7 @@ Epoch 30/30
 360/360 [==============================] - 157s 435ms/step - loss: 2.5781 - age_output_loss: 0.7586 - bag_output_loss: 0.1951 - emotion_output_loss: 0.5513 - footwear_output_loss: 0.2784 - gender_output_loss: 0.0654 - image_quality_output_loss: 0.2289 - pose_output_loss: 0.0769 - weight_output_loss: 0.4235 - age_output_acc: 0.6593 - bag_output_acc: 0.9263 - emotion_output_acc: 0.7727 - footwear_output_acc: 0.8830 - gender_output_acc: 0.9750 - image_quality_output_acc: 0.9069 - pose_output_acc: 0.9720 - weight_output_acc: 0.8100 - val_loss: 11.5308 - val_age_output_loss: 2.0783 - val_bag_output_loss: 1.2942 - val_emotion_output_loss: 1.2194 - val_footwear_output_loss: 1.3725 - val_gender_output_loss: 1.1097 - val_image_quality_output_loss: 1.7119 - val_pose_output_loss: 1.0866 - val_weight_output_loss: 1.6582 - val_age_output_acc: 0.3998 - val_bag_output_acc: 0.6096 - val_emotion_output_acc: 0.6493 - val_footwear_output_acc: 0.6195 - val_gender_output_acc: 0.7614 - val_image_quality_output_acc: 0.5382 - val_pose_output_acc: 0.7817 - val_weight_output_acc: 0.6250
 
 Epoch 00030: val_age_output_acc did not improve from 0.41815
-<keras.callbacks.History at 0x7f41ee0614e0>
+
 ---
 
 ## Resnet 18 Model:
@@ -313,7 +306,7 @@ Epoch 30/30
 360/360 [==============================] - 255s 708ms/step - loss: 6.0751 - age_output_loss: 1.1396 - bag_output_loss: 0.6962 - emotion_output_loss: 0.8126 - footwear_output_loss: 0.6245 - gender_output_loss: 0.1792 - image_quality_output_loss: 0.8174 - pose_output_loss: 0.2580 - weight_output_loss: 0.8522 - age_output_acc: 0.4727 - bag_output_acc: 0.7120 - emotion_output_acc: 0.7138 - footwear_output_acc: 0.7238 - gender_output_acc: 0.9279 - image_quality_output_acc: 0.6090 - pose_output_acc: 0.8985 - weight_output_acc: 0.6363 - val_loss: 9.4965 - val_age_output_loss: 1.9271 - val_bag_output_loss: 1.0834 - val_emotion_output_loss: 0.9552 - val_footwear_output_loss: 0.9501 - val_gender_output_loss: 0.4123 - val_image_quality_output_loss: 1.3859 - val_pose_output_loss: 1.0456 - val_weight_output_loss: 1.0009 - val_age_output_acc: 0.2693 - val_bag_output_acc: 0.5129 - val_emotion_output_acc: 0.6989 - val_footwear_output_acc: 0.6255 - val_gender_output_acc: 0.8363 - val_image_quality_output_acc: 0.3854 - val_pose_output_acc: 0.5665 - val_weight_output_acc: 0.6344
 
 Epoch 00030: val_age_output_acc did not improve from 0.42609
-<keras.callbacks.History at 0x7f41ec74c320>
+
 
 ---
 ## KFOLD Xception Accuracy :
