@@ -310,8 +310,9 @@ Epoch 00030: val_age_output_acc did not improve from 0.42609
 
 ---
 ## KFOLD Xception Accuracy :
+
 {0: {'val_age_output_acc': 0.4056952662721893,
-  'val_bag_output_acc': 0.4056952662721893,
+   'val_bag_output_acc': 0.4056952662721893,
   'val_emotion_output_acc': 0.4056952662721893,
   'val_footwear_output_acc': 0.4056952662721893,
   'val_gender_output_acc': 0.4056952662721893,
