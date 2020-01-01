@@ -51,4 +51,28 @@
 ## Kfold with Resnet18:
 
 ```
+{0: {'val_age_output_acc': 0.412677304964539,
+  'val_bag_output_acc': 0.6187943262411347,
+  'val_emotion_output_acc': 0.7331560283687943,
+  'val_footwear_output_acc': 0.6684397163120568,
+  'val_gender_output_acc': 0.8295656028368794,
+  'val_image_quality_output_acc': 0.5848847517730497,
+  'val_pose_output_acc': 0.7863475177304965,
+  'val_weight_output_acc': 0.62677304964539},
+ 1: {'val_age_output_acc': 0.40492021276595747,
+  'val_bag_output_acc': 0.6394060283687943,
+  'val_emotion_output_acc': 0.6846187943262412,
+  'val_footwear_output_acc': 0.6604609929078015,
+  'val_gender_output_acc': 0.9137854609929078,
+  'val_image_quality_output_acc': 0.5755762411347518,
+  'val_pose_output_acc': 0.8144946808510638,
+  'val_weight_output_acc': 0.6187943262411347},
+ 2: {'val_age_output_acc': 0.6976950354609929,
+  'val_bag_output_acc': 0.9239804964539007,
+  'val_emotion_output_acc': 0.8377659574468085,
+  'val_footwear_output_acc': 0.8297872340425532,
+  'val_gender_output_acc': 0.9592198581560284,
+  'val_image_quality_output_acc': 0.7943262411347518,
+  'val_pose_output_acc': 0.9412677304964538,
+  'val_weight_output_acc': 0.7712765957446809}}
 ```
