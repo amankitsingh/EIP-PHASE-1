@@ -48,7 +48,7 @@
 ```
 ---
 
-## Kfold with Resnet18:
+### Kfold with Resnet18:
 
 ```
 {0: {'val_age_output_acc': 0.412677304964539,
